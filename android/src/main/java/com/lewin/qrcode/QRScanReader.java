@@ -12,7 +12,10 @@ import com.facebook.react.bridge.ReactMethod;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
-import com.google.mlkit.vision.barcode.Barcode;
+// UPDATED IMPORT for Barcode class
+import com.google.mlkit.vision.barcode.common.Barcode; 
+
+// Standard ML Kit imports
 import com.google.mlkit.vision.barcode.BarcodeScanner;
 import com.google.mlkit.vision.barcode.BarcodeScannerOptions;
 import com.google.mlkit.vision.barcode.BarcodeScanning;
